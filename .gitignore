@@ -1,19 +1,10 @@
 # Dataset files
-data/*.csv
-data/*.zip
+*.csv
+data/
 
-# Python
+# Virtual environment
+fraudenv/
+.venv/
 __pycache__/
-*.pyc
 .ipynb_checkpoints/
 
-# Virtual environments
-venv/
-.env/
-
-# Model artifacts
-models/*.pkl
-models/*.joblib
-
-# Mac
-.DS_Store
